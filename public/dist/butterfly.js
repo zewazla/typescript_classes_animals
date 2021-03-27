@@ -10,4 +10,7 @@ export class Butterfly extends Animal {
     eat() {
         console.log("butterfly eat");
     }
+    run() {
+        console.log("I fly!");
+    }
 }

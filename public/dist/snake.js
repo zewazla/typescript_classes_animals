@@ -10,4 +10,7 @@ export class Snake extends Animal {
     eat() {
         console.log("snake eat");
     }
+    run() {
+        console.log("snake dont run");
+    }
 }
