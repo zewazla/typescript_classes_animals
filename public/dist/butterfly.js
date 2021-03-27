@@ -1,11 +1,13 @@
 import { Animal } from "./abstract_animal.js";
-export class Dog extends Animal {
+export class Butterfly extends Animal {
     constructor(name) {
         super(name);
         this.name = name;
     }
     getVoice() {
-        console.log("Hau, hau");
-        super.getVoice();
+        console.log(`"Fru Fru"`);
+    }
+    eat() {
+        console.log("butterfly eat");
     }
 }

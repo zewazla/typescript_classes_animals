@@ -5,7 +5,9 @@ export class Snake extends Animal {
         this.name = name;
     }
     getVoice() {
-        console.log("sss");
-        super.getVoice();
+        console.log(`"sss"`);
+    }
+    eat() {
+        console.log("snake eat");
     }
 }
